@@ -1,9 +1,7 @@
 
 
 def swap(arr, i, j):
-    """
-    Swaps the elements at positions i and j in the given array.
-    """
+    
     arr[i], arr[j] = arr[j], arr[i]
 
 def insertionSort(A, n):
